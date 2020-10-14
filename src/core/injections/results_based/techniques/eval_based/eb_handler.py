@@ -482,6 +482,7 @@ def eb_injection_handler(url, timesec, filename, http_request_method):
                 err_msg = "'" + gotshell + "' is not a valid answer."  
                 print(settings.print_error_msg(err_msg))
                 pass
+            raise SystemExit()
               
               
   if no_result == True:

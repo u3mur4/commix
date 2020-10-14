@@ -596,6 +596,7 @@ def tb_injection_handler(url, timesec, filename, http_request_method, url_time_r
                   print(settings.print_error_msg(err_msg))
                   pass
                 break
+            raise SystemExit()
             
     
   if no_result == True:
