@@ -135,7 +135,7 @@ def crawler(url):
       else:
         change_depth_level = ""
       if len(change_depth_level) == 0:
-         change_depth_level = "Y"
+         change_depth_level = "n"
       if change_depth_level in settings.CHOICE_YES or change_depth_level in settings.CHOICE_NO:
         break  
       elif change_depth_level in settings.CHOICE_QUIT:

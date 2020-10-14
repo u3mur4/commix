@@ -166,7 +166,7 @@ def input_cmd(http_request_method, url, vuln_parameter, ip_src, technique):
     else:
       gotshell = ""  
     if len(gotshell) == 0:
-       gotshell= "Y"
+       gotshell= "n"
     if gotshell in settings.CHOICE_YES:
       print("\nPseudo-Terminal (type '" + Style.BRIGHT + "?" + Style.RESET_ALL + "' for available options)")
       if readline_error:

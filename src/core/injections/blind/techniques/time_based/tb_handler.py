@@ -521,7 +521,7 @@ def tb_injection_handler(url, timesec, filename, http_request_method, url_time_r
                 else:
                   gotshell = "" 
                 if len(gotshell) == 0:
-                  gotshell = "Y"
+                  gotshell = "n"
                 if gotshell in settings.CHOICE_YES:
                   if not menu.options.batch:
                     print("")

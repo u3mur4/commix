@@ -788,7 +788,7 @@ def shellshock_handler(url, http_request_method, filename):
               else:
                 gotshell= ""  
               if len(gotshell) == 0:
-                 gotshell= "Y"
+                 gotshell= "n"
               if gotshell in settings.CHOICE_YES:
                 if not menu.options.batch:
                   print("")
